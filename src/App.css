@@ -1,0 +1,112 @@
+body{
+  margin : 0;
+  padding:  0;
+}
+
+
+.navClass > nav > *{
+    margin:  1.3rem;
+}
+
+.home-btn{
+  margin: 1rem;
+  align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.all-btns-home{
+   position: relative;
+   left : 24.7rem;
+}
+
+
+.form-main-class{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-main-class > * {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+
+.add-course-btn{
+  position: absolute;
+  left: 18rem;
+}
+
+.go-back-add-course{
+  position: absolute;
+  left: 28rem;
+}
+
+
+.allCourses{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.id {
+  margin-left: 2rem;
+  
+}
+
+.description {
+  margin-left: 2rem;
+  
+}
+
+.name{
+  margin-left: 2rem;
+}
+
+.price{
+  margin-left: 2rem;
+}
+
+
+/* .userdiv > *{
+   display: flex;
+   flex-wrap: wrap;
+} */
+
+.course-delete-btn{
+  position: relative;
+  left: 15rem;
+  /* width: 4.1rem; */
+  border-radius: 30%;
+  
+}
+
+
+.go-back-allCourse{
+  margin: 6rem;
+}
+
+
+
+
+.nav-class{
+  border-radius: 20%;
+}
+
+/* table, td {
+  border: 1px solid black;
+} */
+
+
+#descriptioncoln{
+  position: relative;
+  left: -13rem;
+}
+#pricecoln{
+  position: relative;
+  left: -7rem;
+}
